@@ -67,16 +67,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="OverrideImplement.combined" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -180,25 +181,33 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1614971457191">
+    <state width="1313" height="167" key="GridCell.Tab.0.bottom" timestamp="1615517957150">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614971457191" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1614971457191">
+    <state width="1313" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615517957150" />
+    <state width="1313" height="167" key="GridCell.Tab.0.center" timestamp="1615517957150">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1614971457191" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1614971457190">
+    <state width="1313" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1615517957150" />
+    <state width="1313" height="167" key="GridCell.Tab.0.left" timestamp="1615517957150">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1614971457190" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1614971457191">
+    <state width="1313" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1615517957150" />
+    <state width="1313" height="167" key="GridCell.Tab.0.right" timestamp="1615517957150">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614971457191" />
+    <state width="1313" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615517957150" />
+    <state x="91" y="0" key="SettingsEditor" timestamp="1615509324833">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="91" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1615509324833" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1615500249314">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1615500249314" />
+    <state x="356" y="178" width="881" height="372" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1615509189660">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="356" y="178" width="881" height="372" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.728@0.0.1366.728" timestamp="1615509189660" />
   </component>
 </project>
