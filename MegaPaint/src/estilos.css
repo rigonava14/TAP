@@ -1,0 +1,33 @@
+.fondo{
+-fx-background-color:#0349fc;
+}
+.buttonPincel{
+-fx-background-image: url("./img/pincel2.png");
+-fx-background-color:#FFFF;
+-fx-background-size: cover;
+}
+.buttonBorrador{
+-fx-background-image: url("./img/borrador.png");
+-fx-background-color:#FFFF;
+-fx-background-size: cover;
+}
+.buttonCirculo{
+-fx-background-image: url("./img/circulo.png");
+-fx-background-color:#FFFF;
+-fx-background-size: cover;
+}
+.buttonCuadro{
+-fx-background-image: url("./img/cuadro.png");
+-fx-background-color:#FFFF;
+-fx-background-size: cover;
+}
+.buttonGuardar{
+-fx-background-image: url("./img/guardar.png");
+-fx-background-color:#FFFF;
+-fx-background-size: cover;
+}
+.buttonLinea{
+-fx-background-image: url("./img/linea.png");
+-fx-background-color:#FFFF;
+-fx-background-size: cover;
+}
