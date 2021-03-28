@@ -1,0 +1,20 @@
+.fondo{
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #8E9AAF, #FEEAFA);
+}
+.top{
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #EFD3D7, #DEE2FF);
+}
+.btn{
+-fx-background: transparent;
+-fx-background-color: #8E9AAF;
+ -fx-background-radius: 50px;
+ }
+ .textField{
+  -fx-background-color: #FEEAFA;
+  -fx-background-radius: 15px;
+ }
+ .textField2{
+  -fx-background-color: #8E9AAF;
+  -fx-background-radius: 15px;
+  -fx-font-color: #FEEAFA;
+ }

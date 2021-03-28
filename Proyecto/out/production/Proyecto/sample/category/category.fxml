@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="700.0" styleClass="fondo" stylesheets="@../../estilos.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.category.Category">
+   <children>
+      <HBox fx:id="padre" layoutY="108.0" prefHeight="396.0" prefWidth="700.0" spacing="15.0">
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <Label layoutX="42.0" layoutY="35.0" text="Categorias" textFill="#feeafa">
+         <font>
+            <Font name="Forte" size="41.0" />
+         </font>
+      </Label>
+      <Button layoutX="42.0" layoutY="528.0" mnemonicParsing="false" onAction="#atras" styleClass="btn" text="Atras" textFill="#feeafa">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

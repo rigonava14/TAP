@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="fondo" stylesheets="@../../estilos.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.config.Config">
+   <children>
+      <Label layoutX="52.0" layoutY="45.0" text="Config" textFill="#feeafa">
+         <font>
+            <Font name="Forte" size="41.0" />
+         </font>
+      </Label>
+      <ComboBox layoutX="36.0" layoutY="131.0" prefWidth="150.0" promptText="Nacionalidad" styleClass="textField" />
+      <TextField layoutX="37.0" layoutY="198.0" promptText="Cambiar nombre" styleClass="textField" />
+      <TextArea layoutX="243.0" layoutY="131.0" prefHeight="133.0" prefWidth="337.0" promptText="Descripcion (opcional)" />
+      <Button layoutX="37.0" layoutY="239.0" mnemonicParsing="false" styleClass="btn" text="Aplicar" textFill="#feeafa">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="37.0" layoutY="340.0" mnemonicParsing="false" onAction="#atras" styleClass="btn" text="Atras" textFill="#feeafa">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
