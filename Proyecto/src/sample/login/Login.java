@@ -13,6 +13,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
 import sample.Main;
 import sample.models.Conexion;
+import sample.principal.Principal;
 
 import java.io.IOException;
 import java.sql.ResultSet;
@@ -38,10 +39,12 @@ public class Login {
         Main.stage.setScene(scene);
 
     }
+
     public void log(ActionEvent event) throws IOException, SQLException {
         String email = user.getText();
         String passw = pass.getText();
         ResultSet resultSet = conexion.consultar("select * from users where email='"+email+"' and password='"+passw+"'");
+
         System.out.println("select * from users where email="+email+" and password="+passw+"");
         int cont=0;
         if (resultSet!=null){
@@ -51,6 +54,7 @@ public class Login {
                 alert.setTitle("BIENVENIDO");
                 alert.setContentText("Bienvenido "+resultSet.getObject("name"));
                 alert.show();
+                Principal.user=resultSet.getObject("name").toString();
                 cont++;
                 //System.out.println(resultSet.getObject("name"));
                 //System.out.println(resultSet.getObject("email"));

@@ -32,7 +32,7 @@
                               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                            </HBox.margin>
                         </ImageView>
-                        <Label text="User" textFill="#8e9aaf">
+                        <Label fx:id="usuario" prefHeight="19.0" prefWidth="264.0" text="User" textFill="#8e9aaf">
                            <font>
                               <Font name="Forte" size="16.0" />
                            </font>
@@ -40,28 +40,34 @@
                               <Insets top="5.0" />
                            </HBox.margin>
                         </Label>
-                        <VBox prefHeight="112.0" prefWidth="206.0" />
-                        <JFXButton onAction="#cerrar" ripplerFill="#8e9aaf" text="cerrar sesion" textFill="#8e9aaf">
-                           <HBox.margin>
-                              <Insets top="20.0" />
-                           </HBox.margin>
-                           <font>
-                              <Font name="System Bold" size="12.0" />
-                           </font>
-                        </JFXButton>
-                        <ImageView fitHeight="64.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../img/gear.png" />
-                           </image>
-                        </ImageView>
-                        <Button mnemonicParsing="false" onAction="#config" styleClass="textField" text="Config Usuario" textFill="#8e9aaf">
-                           <HBox.margin>
-                              <Insets left="10.0" top="20.0" />
-                           </HBox.margin>
-                           <font>
-                              <Font name="System Bold" size="13.0" />
-                           </font>
-                        </Button>
+                        <VBox prefHeight="116.0" prefWidth="129.0">
+                           <children>
+                              <ImageView fitHeight="64.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/gear.png" />
+                                 </image>
+                              </ImageView>
+                              <Button mnemonicParsing="false" onAction="#config" styleClass="textField" text="Config Usuario" textFill="#8e9aaf">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </Button>
+                           </children></VBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <JFXButton onAction="#cerrar" ripplerFill="#8e9aaf" text="cerrar sesion" textFill="#8e9aaf">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </JFXButton>
+                           </children>
+                        </VBox>
                      </children>
                      <BorderPane.margin>
                         <Insets left="15.0" right="15.0" top="15.0" />
@@ -93,6 +99,38 @@
                               <Font name="System Bold" size="13.0" />
                            </font>
                         </Button>
+                        <VBox prefHeight="147.0" prefWidth="189.0" spacing="15.0">
+                           <children>
+                              <Label text="Busca tutoriales" textFill="#feeafa">
+                                 <font>
+                                    <Font name="Forte" size="21.0" />
+                                 </font>
+                              </Label>
+                              <JFXComboBox fx:id="comboTutorial" prefHeight="25.0" prefWidth="167.0" />
+                              <Button mnemonicParsing="false" onAction="#generar" styleClass="textField" text="Mostrar Lista" textFill="#8e9aaf">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Button>
+                              <JFXButton onAction="#eliminar" text="ELIMINAR" textFill="RED">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </JFXButton>
+                           </children>
+                           <padding>
+                              <Insets left="10.0" right="10.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets top="15.0" />
+                           </VBox.margin>
+                        </VBox>
+                        <JFXTextField fx:id="txtEd" promptText="Editar Nombre" />
+                        <JFXButton fx:id="editar" onAction="#editar" text="Editar Nombre" textFill="#0d29ff">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </JFXButton>
                      </children>
                      <padding>
                         <Insets left="10.0" right="10.0" />
@@ -107,33 +145,20 @@
                      <children>
                         <VBox prefHeight="559.0" prefWidth="290.0" styleClass="fondo">
                            <children>
-                              <VBox prefHeight="147.0" prefWidth="189.0" spacing="15.0">
-                                 <children>
-                                    <Label text="Busca tutoriales" textFill="#feeafa">
-                                       <font>
-                                          <Font name="Forte" size="21.0" />
-                                       </font>
-                                    </Label>
-                                    <JFXComboBox fx:id="comboTutorial" prefHeight="25.0" prefWidth="167.0" />
-                                    <Button mnemonicParsing="false" onAction="#generar" styleClass="textField" text="Mostrar Lista" textFill="#8e9aaf">
-                                       <font>
-                                          <Font name="System Bold" size="13.0" />
-                                       </font>
-                                    </Button>
-                                 </children>
-                                 <padding>
-                                    <Insets left="10.0" right="10.0" />
-                                 </padding>
+                              <ImageView fitHeight="91.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                                  <VBox.margin>
-                                    <Insets top="15.0" />
+                                    <Insets />
                                  </VBox.margin>
-                              </VBox>
+                                 <image>
+                                    <Image url="@../img/upload.png" />
+                                 </image>
+                              </ImageView>
                               <Label text="Subir Tutorial" textFill="#feeafa">
                                  <font>
                                     <Font name="Forte" size="21.0" />
                                  </font>
                                  <VBox.margin>
-                                    <Insets bottom="10.0" left="20.0" />
+                                    <Insets bottom="10.0" left="20.0" top="30.0" />
                                  </VBox.margin>
                               </Label>
                               <Label layoutX="10.0" layoutY="172.0" text="Tipo" textFill="#feeafa">
@@ -141,7 +166,7 @@
                                     <Font name="Forte" size="21.0" />
                                  </font>
                                  <VBox.margin>
-                                    <Insets left="20.0" />
+                                    <Insets left="20.0" top="20.0" />
                                  </VBox.margin>
                               </Label>
                               <JFXComboBox fx:id="tipo" prefHeight="25.0" prefWidth="193.0" promptText="Tipo de Tutorial">
